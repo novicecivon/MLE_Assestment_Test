@@ -1,0 +1,32 @@
+git config --local user.name "novicecivon"
+git config --local user.email "novicecivon@protonmail.com"
+git config user.name
+git config user.email
+
+
+Read given documentation
+create folders for each task
+read documentation for each task
+create virtual environments for each task
+
+Task 1:
+
+    Added:
+    if __name__ == "__main__":
+        uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
+
+    Added:
+    --platform linux/amd64
+    docker build --platform linux/amd64 . -t qamodel
+
+Task 2:
+    Used dotenv
+    AAI_API_KEY = "XXXX"
+
+Task 3:
+    followed the documentation from site. not familiar flask will use fastapi and gradio
+
+Task 4:
+    Persisting error:
+    OSError: [Errno 38] Function not implemented
+    will use gradio
