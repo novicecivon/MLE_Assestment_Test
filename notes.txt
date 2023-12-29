@@ -25,6 +25,8 @@ Task 2:
 
 Task 3:
     followed the documentation from site. not familiar flask will use fastapi and gradio
+    - fixed the error with methods=["POST"]
+    - when testing use the dialogflow "try it now" via audio
 
 Task 4:
     Added:
