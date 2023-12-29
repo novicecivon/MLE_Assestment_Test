@@ -24,7 +24,6 @@ Task 2:
     AAI_API_KEY = "XXXX"
 
 Task 3:
-    followed the documentation from site. not familiar flask will use fastapi and gradio
     - fixed the error with methods=["POST"]
     - when testing use the dialogflow "try it now" via audio
 
@@ -32,6 +31,3 @@ Task 4:
     Added:
     - preprocessing on the text by removing the newline characters, 
         thus resulting in improved performance in summarizing
-    Persisting error:
-    OSError: [Errno 38] Function not implemented
-    will use gradio
