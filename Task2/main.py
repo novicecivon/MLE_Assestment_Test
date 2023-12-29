@@ -30,7 +30,7 @@ def transcribe_audio(audio_file):
 
 iface = gr.Interface(
     fn=transcribe_audio,
-    inputs=["file"],
+    inputs=gr.Audio(sources=["microphone", "upload"], type="filepath"),
     outputs="text",
     title="Speech-to-Text Transcription",
 )
