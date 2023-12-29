@@ -27,6 +27,9 @@ Task 3:
     followed the documentation from site. not familiar flask will use fastapi and gradio
 
 Task 4:
+    Added:
+    - preprocessing on the text by removing the newline characters, 
+        thus resulting in improved performance in summarizing
     Persisting error:
     OSError: [Errno 38] Function not implemented
     will use gradio
