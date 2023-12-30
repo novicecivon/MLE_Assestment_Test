@@ -31,3 +31,7 @@ Task 4:
     Added:
     - preprocessing on the text by removing the newline characters, 
         thus resulting in improved performance in summarizing
+
+Deployment:
+Task 1:
+    - moved the app.py outside of the folder
