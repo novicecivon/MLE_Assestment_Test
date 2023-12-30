@@ -35,3 +35,7 @@ Task 4:
 Deployment:
 Task 1:
     - moved the app.py outside of the folder
+Task 2:
+    - tried multiple ways to run gradio only adding these into the dockerfile worked:
+    FROM public.ecr.aws/docker/library/python:3.8.12-slim-buster
+    COPY --from=public.ecr.aws/awsguru/aws-lambda-adapter:0.4.0 /lambda-adapter /opt/extensions/lambda-adapter
