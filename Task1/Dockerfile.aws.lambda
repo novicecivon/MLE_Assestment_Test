@@ -1,0 +1,9 @@
+FROM amazon/aws-lambda-python:3.8
+
+RUN pip install --no-cache-dir transformers[torch] uvicorn fastapi mangum
+
+COPY . ${LAMBDA_TASK_ROOT}
+
+CMD [ "app.handler" ]
+
+# docker build --platform linux/amd64 -f Dockerfile.aws.lambda -t <name> .
