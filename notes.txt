@@ -34,8 +34,20 @@ Task 4:
 
 Deployment:
 Task 1:
+    - Tested via notebook via requests
     - moved the app.py outside of the folder
 Task 2:
+    - Tested via function url
     - tried multiple ways to run gradio only adding these into the dockerfile worked:
     FROM public.ecr.aws/docker/library/python:3.8.12-slim-buster
     COPY --from=public.ecr.aws/awsguru/aws-lambda-adapter:0.4.0 /lambda-adapter /opt/extensions/lambda-adapter
+    reference:
+    https://www.philschmid.de/serverless-gradio
+Task 3:
+    - Tested via dialogflow
+    used fastapi rather than flask
+Task 4:
+    - Tested function url
+    - Used gradio rather than streamlit
+    - Added the model to the docker image rather than downloading on demand (in lambda)
+    - Memory must be set to 3008
